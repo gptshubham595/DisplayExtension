@@ -1,9 +1,7 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-  "name": "Copy Markup Markdown",
-  "version": "0.10.0",
-  "description": "Copy seletion as Markup or Markdown",
+  "name": "Display Selection",
+  "version": "1.0.0",
+  "description": "Display seletion",
   "manifest_version": 2,
   "permissions": ["storage", "tabs", "<all_urls>", "contextMenus", "activeTab"],
   "background": {
@@ -23,7 +21,7 @@
     }
   ],
   "browser_action": {
-    "default_title": "Copy what you want at ease",
+    "default_title": "Display what you want at ease",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "papers_16.png",

@@ -24,11 +24,11 @@ document.body.onload = function() {
     var divs = document.getElementsByClassName('browser-btn');
     for (var i = 0; i < divs.length; i++) {
       if (!stored.selection) {
-        if (divs[i].id === 'copy_selection_html') {
+        if (divs[i].id === 'copy_selection_html' || divs[i].id === 'copy_selection_markdown') {
           divs[i].classList.add('hidden')
         }
       } else {
-        divs[i].classList.add('hidden')
+        divs[i].classList.remove('hidden')
       }
     }
   })

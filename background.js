@@ -1,9 +1,8 @@
-// Send a message to the active tab
-function copySelectionHTML() {
+function copySelectionMarkDown() {
   chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
     var activeTab = tabs[0];
     chrome.tabs.sendMessage(activeTab.id, {
-      action: "copy_selection_html"
+      action: "copy_selection_markdown"
     });
   });
 }
@@ -16,9 +15,9 @@ chrome.contextMenus.create({
 
 
 chrome.contextMenus.create({
-  title: "Copy Selection HTML",
+  title: "Copy Selection Markdown",
   parentId: "parent",
   contexts: ["selection"],
-  onclick: copySelectionHTML
+  onclick: copySelectionMarkDown
 });
 

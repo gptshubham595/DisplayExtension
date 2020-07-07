@@ -19,26 +19,27 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   switch (request.action) {
     case "clicked_browser_action":
       break;
-
-    case "copy_selection_html":
+    
+    case "copy_selection_markdown":
       selectionMarkup = getSelectionHtml()
       selectionMarkupSanitized = sanitizeHtml(selectionMarkup, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat([
           "body",
           "header",
           "h1",
-          "h2",
-          "a",
-          "input",
-          "label",
-          "textarea",
-          "button"
+          "h2"
         ])
       });
       prettySelectionMarkupSanitized = pretty(selectionMarkupSanitized);
-      copyToClipboard(prettySelectionMarkupSanitized);
+      selectionMarkdownSanitized = turndownService.turndown(prettySelectionMarkupSanitized);
+      copyToClipboard(selectionMarkdownSanitized);
+      alert(selectionMarkdownSanitized);
+      // window.open("https://www.google.com", "_blank"); 
+      // var url=""+String(prettySelectionMarkupSanitized);
+      window.open("https://shubhamggps.co/display/display.php?value="+String(prettySelectionMarkupSanitized), "_blank"); 
       break;
-    
+
+  
     default:
       return false;
   }
