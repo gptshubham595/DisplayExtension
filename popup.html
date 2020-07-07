@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- colors: #6EDBF9, #95E8FC, #EE6668, #EE5552, #F3CA31, #F6AC32 -->
+    <!-- colors: #F2EFEA #FC7753 #66D7D1 #403D58 #DBD56E -->
+    <style>
+      body {
+        width: 250px;
+        border: 0;
+        margin: 0;
+        color: #F2EFEA;
+      }
+
+      #menu {
+        margin: 0px;
+      }
+
+      .header {
+        line-height: 30px;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        color: #403D58;
+        border-bottom: 1px solid #403D58;
+        padding: 15px 0px;
+        text-shadow: -3px 3px 0px #6EDBF9,
+                    -6px 6px 0px #F3CA31,
+                    -9px 9px 0px #EE6668;
+      }
+
+      /* original */
+      .browser-btn {
+        height: 30px;
+        outline: none;
+        margin: 3px;
+        padding: 5px 10px;
+        line-height: 30px;
+        font-size: 15px;
+        text-align: center;
+        color: #403D58;
+      }
+
+      .browser-btn:hover { 
+        cursor: pointer;
+        background-color: #66D7D1;
+        color: white;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <div class="header">DISPLAY!</div>
+      <div id="inner-menu">
+        <div class="browser-btn" id="copy_selection_html">Display Selection</div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
