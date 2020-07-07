@@ -8,14 +8,14 @@ function copySelectionMarkDown() {
 }
 
 chrome.contextMenus.create({
-  title: "Copy Markup Markdown",
+  title: "Display Selection",
   id: "parent",
   contexts: ["all", "selection"]
 });
 
 
 chrome.contextMenus.create({
-  title: "Copy Selection Markdown",
+  title: "Display Selection",
   parentId: "parent",
   contexts: ["selection"],
   onclick: copySelectionMarkDown

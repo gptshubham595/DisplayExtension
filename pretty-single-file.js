@@ -1,10 +1,4 @@
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.pretty = f()}})(function(){var define,module,exports;return (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-/*!
- * condense-newlines <https://github.com/jonschlinkert/condense-newlines>
- *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT License
- */
 
 'use strict';
 
@@ -122,8 +116,6 @@ function isSlowBuffer (obj) {
 /*!
  * is-extendable <https://github.com/jonschlinkert/is-extendable>
  *
- * Copyright (c) 2015, Jon Schlinkert.
- * Licensed under the MIT License.
  */
 
 'use strict';
@@ -137,8 +129,6 @@ module.exports = function isExtendable(val) {
 /*!
  * is-whitespace <https://github.com/jonschlinkert/is-whitespace>
  *
- * Copyright (c) 2014-2015, Jon Schlinkert.
- * Licensed under the MIT License.
  */
 
 'use strict';
@@ -160,7 +150,7 @@ function regex() {
 /*
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -170,13 +160,13 @@ function regex() {
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -247,7 +237,7 @@ if (typeof define === "function" && define.amd) {
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -257,13 +247,13 @@ if (typeof define === "function" && define.amd) {
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -311,7 +301,7 @@ module.exports.Directives = Directives;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -321,13 +311,13 @@ module.exports.Directives = Directives;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -461,7 +451,7 @@ module.exports.InputScanner = InputScanner;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -471,13 +461,13 @@ module.exports.InputScanner = InputScanner;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -640,7 +630,7 @@ module.exports.mergeOpts = _mergeOpts;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -650,13 +640,13 @@ module.exports.mergeOpts = _mergeOpts;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -951,7 +941,7 @@ module.exports.Output = Output;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -961,13 +951,13 @@ module.exports.Output = Output;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1007,7 +997,7 @@ module.exports.Token = Token;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1017,13 +1007,13 @@ module.exports.Token = Token;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1161,7 +1151,7 @@ module.exports.TOKEN = TOKEN;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1171,13 +1161,13 @@ module.exports.TOKEN = TOKEN;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1241,7 +1231,7 @@ module.exports.TokenStream = TokenStream;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1251,13 +1241,13 @@ module.exports.TokenStream = TokenStream;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1681,7 +1671,7 @@ module.exports.Beautifier = Beautifier;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1691,13 +1681,13 @@ module.exports.Beautifier = Beautifier;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1725,7 +1715,7 @@ module.exports.defaultOptions = function() {
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1735,13 +1725,13 @@ module.exports.defaultOptions = function() {
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -1773,7 +1763,7 @@ module.exports.Options = Options;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -1783,13 +1773,13 @@ module.exports.Options = Options;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -2533,7 +2523,7 @@ module.exports.Beautifier = Beautifier;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -2543,13 +2533,13 @@ module.exports.Beautifier = Beautifier;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -2577,7 +2567,7 @@ module.exports.defaultOptions = function() {
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -2587,13 +2577,13 @@ module.exports.defaultOptions = function() {
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -2661,7 +2651,7 @@ module.exports.Options = Options;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -2671,13 +2661,13 @@ module.exports.Options = Options;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -2951,7 +2941,7 @@ module.exports.TOKEN = TOKEN;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -2961,13 +2951,13 @@ module.exports.TOKEN = TOKEN;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -3055,7 +3045,7 @@ exports.allLineBreaks = new RegExp(exports.lineBreak.source, 'g');
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -3065,13 +3055,13 @@ exports.allLineBreaks = new RegExp(exports.lineBreak.source, 'g');
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -4481,7 +4471,7 @@ module.exports.Beautifier = Beautifier;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -4491,13 +4481,13 @@ module.exports.Beautifier = Beautifier;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -4525,7 +4515,7 @@ module.exports.defaultOptions = function() {
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -4535,13 +4525,13 @@ module.exports.defaultOptions = function() {
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -4620,7 +4610,7 @@ module.exports.Options = Options;
 
   The MIT License (MIT)
 
-  Copyright (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
+   (c) 2007-2018 Einar Lielmanis, Liam Newman, and contributors.
 
   Permission is hereby granted, free of charge, to any person
   obtaining a copy of this software and associated documentation files
@@ -4630,13 +4620,13 @@ module.exports.Options = Options;
   and to permit persons to whom the Software is furnished to do so,
   subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be
+  The above  notice and this permission notice shall be
   included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR  HOLDERS
   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -5279,7 +5269,7 @@ module.exports = function kindOf(val) {
 /*!
  * pretty <https://github.com/jonschlinkert/pretty>
  *
- * Copyright (c) 2013-2015, 2017, Jon Schlinkert.
+ *  (c) 2013-2015, 2017, Jon Schlinkert.
  * Released under the MIT License.
  */
 
